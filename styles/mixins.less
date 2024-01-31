@@ -1,0 +1,27 @@
+@import './dist/fonts.css';
+
+// Colors
+
+@light-brown: #AD7955;
+@middle-brown: #8F5334;
+@dark-brown: #653012;
+@white: #FFF;
+@light-gray: #EEE;
+@middle-gray: #BBB;
+@semi-dark-gray: #999;
+@dark-gray: #777;
+@light-black: #323232;
+@middle-black: #222;
+@dark-black: #111;
+
+
+
+// Fonts
+@mainFont: 'Uto', sans-serif;
+@subFont: 'Roboto';
+
+.transition(@style:all; @time:0.5s; @anim: ease-in-out){
+    -moz-transition: @style @time @anim;
+    -webkit-transition: @style @time @anim;
+    transition: @style @time @anim;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>essenceofme</title>
+	<link rel="shortcut icon" href="../../img/logo.png" type="image/png">
+	<link rel="stylesheet" href="../../styles/dist/fonts.css">
+	<link rel="stylesheet" href="../../styles/dist/style.css">
+	<link rel="stylesheet" href="../../styles/dist/media.css">
+</head>
+<body>
+	<section class="sign-in-up-default">
+		<div class="form-sign-in-up-default-wrap margin-c">
+			<form class="form-sign-in-up-default" method="post">
+				<div class="section-title-wrap">
+					<h2 class="section-title">Personal Information</h2>
+				</div>
+				<div class="input-wrap input-wrap-img">
+					<label for="file-img" class="file-img-control">
+						<input type="file" id="file-img" accept="image/*">
+						<img id="avatar" class="avatar" src="../../img/avatar.svg" alt="avatar">
+					</label>
+					<div class="info-add-photo info-avatar">
+						<h3 class="info-add-photo-title name-avatar">
+							Information about adding photo
+						</h3>
+						<p class="info-add-photo-subtitle change-avatar">
+							Information about adding photo. Amet minim mollit non deserunt ullamco
+							est sit aliqua dolor do amet sint. Velit officia consequat
+							duis enim velit mollit. 
+						</p>
+						<div class="delete-photo-wrap"></div>
+					</div>
+				</div>
+				<div class="input-wrap input-wrap-radios">
+					<label for="radio-sex-male" class="radio-control">
+						<input type="radio" id="radio-sex-male" name="role_choose">
+						<span class="radio-indicator"></span>
+						Male
+					</label>
+					<label for="radio-sex-female" class="radio-control">
+						<input type="radio" id="radio-sex-female" name="role_choose" checked>
+						<span class="radio-indicator"></span>
+						Female
+					</label>
+					<label for="radio-sex-none" class="radio-control">
+						<input type="radio" id="radio-sex-none" name="role_choose">
+						<span class="radio-indicator"></span>
+						None
+					</label>
+					<span class="name-input">Gender</span>
+				</div>
+				<div class="input-wrap">
+					<input type="text" name="date-birthday" placeholder="MM.DD.YYYY" required>
+					<!-- onfocus="(this.type='date')"  // TODO -->
+					<span class="name-input">Date of birthday</span>
+				</div>
+				<div class="btns-wrap">
+					<button class="btn-default btn-transparent">Back</button>
+					<button class="btn-default btn-brown">Next</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<script src="../../libs/jquery-3.6.2.min.js"></script>
+	<script src="../../libs/slick/slick.min.js"></script>
+  	<script src="../../js/script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+</body>
+</html>

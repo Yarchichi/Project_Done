@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Uto';
+	src: url('../../fonts/Uto/TTF/Uto-Light.ttf') format('truetype');
+	/* src: url('../../fonts/Uto/OTF/Uto-L.otf') format('opentype');
+	src: url('../../fonts/Uto/WOFF/Uto-Regular.woff') format('woff'); */
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Uto';
+	src: url('../../fonts/Uto/TTF/Uto-Regular.ttf') format('truetype');
+	src: url('../../fonts/Uto/OTF/Uto-Regular.otf') format('opentype');
+	src: url('../../fonts/Uto/WOFF/Uto-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Uto';
+	src: url('../../fonts/Uto/TTF/Uto-Medium.ttf') format('truetype');
+	src: url('../../fonts/Uto/OTF/Uto-Medium.otf') format('opentype');
+	src: url('../../fonts/Uto/WOFF/Uto-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Uto';
+	src: url('../../fonts/Uto/TTF/Uto-Semi-Bold.ttf') format('truetype');
+	src: url('../../fonts/Uto/OTF/Uto-Semi-Bold.otf') format('opentype');
+	src: url('../../fonts/Uto/WOFF/Uto-Semi-Bold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
